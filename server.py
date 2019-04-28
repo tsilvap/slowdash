@@ -90,7 +90,3 @@ api.add_resource(Post, "/api/blog/posts/<int:post_id>")
 @app.route("/<path:path>")
 def send_static(path):
     return send_from_directory("./client/dist", path)
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
