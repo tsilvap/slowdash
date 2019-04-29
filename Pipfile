@@ -6,6 +6,9 @@ verify_ssl = true
 [packages]
 flask = "*"
 flask-restful = "*"
+flask-sqlalchemy = "*"
+pylint-flask = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
