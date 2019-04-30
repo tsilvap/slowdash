@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from slowdash.app import db
+from slowdash.slowdash import db
 
 
 class User(db.Model):

@@ -1,6 +1,6 @@
 from flask import render_template, send_from_directory
 
-from slowdash.app import app
+from slowdash.slowdash import app
 
 
 @app.route("/")

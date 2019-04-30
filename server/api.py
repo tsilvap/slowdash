@@ -1,6 +1,6 @@
 from flask_restful import Resource, abort, fields, marshal_with, reqparse
 
-from slowdash.app import api
+from slowdash.slowdash import api, db
 from slowdash.server.models import User, Post
 
 

@@ -7,7 +7,6 @@ verify_ssl = true
 flask = "*"
 flask-restful = "*"
 flask-sqlalchemy = "*"
-pylint-flask = "*"
 psycopg2 = "*"
 
 [requires]
@@ -16,6 +15,8 @@ python_version = "3.7"
 [dev-packages]
 black = "*"
 python-dotenv = "*"
+pytest = "*"
+pylint-flask = "*"
 
 [pipenv]
 allow_prereleases = true
